@@ -1,46 +1,46 @@
 public class PostList {
     private long id;
-    private String Article_title, Detail, Avatar, Writer, Date_of_writing;
+    private String article_title, detail, avatar, writer, date_of_writing;
 
-    public PostList(long id, String Article_title, String Detail, String Avatar, String Writer, String Date_of_writing) {
+    public PostList(long id, String article_title, String detail, String avatar, String writer, String date_of_writing) {
         this.id = id;
-        this.Article_title = Article_title;
-        this.Detail = Detail;
-        this.Avatar = Avatar;
-        this.Writer = Writer;
-        this.Date_of_writing = Date_of_writing;
+        this.article_title = article_title;
+        this.detail = detail;
+        this.avatar = avatar;
+        this.writer = writer;
+        this.date_of_writing = date_of_writing;
     }
 
     public String getArticle_title() {
-        return Article_title;
+        return article_title;
     }
 
     public void setArticle_title(String article_title) {
-        Article_title = article_title;
+        this.article_title = article_title;
     }
 
     public String getAvatar() {
-        return Avatar;
+        return avatar;
     }
 
     public void setAvatar(String avatar) {
-        Avatar = avatar;
+        this.avatar = avatar;
     }
 
     public String getDate_of_writing() {
-        return Date_of_writing;
+        return date_of_writing;
     }
 
     public void setDate_of_writing(String date_of_writing) {
-        Date_of_writing = date_of_writing;
+        this.date_of_writing = date_of_writing;
     }
 
     public String getDetail() {
-        return Detail;
+        return detail;
     }
 
     public void setDetail(String detail) {
-        Detail = detail;
+        this.detail = detail;
     }
 
     public long getId() {
@@ -52,10 +52,10 @@ public class PostList {
     }
 
     public String getWriter() {
-        return Writer;
+        return writer;
     }
 
     public void setWriter(String writer) {
-        Writer = writer;
+        this.writer = writer;
     }
 }
